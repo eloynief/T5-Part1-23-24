@@ -10,13 +10,22 @@ public class Main {
 		
 		//objeto scanner
 		Scanner sc=new Scanner(System.in);
-		
-		
-		int saldo;
+		//variables
+		int dni=0;
+		double saldo=0;
+		String nombre="";
 		
 		menu();
 		
-		cuenta=new CuentaCorriente();
+		
+		
+		
+		//
+		cuenta=new CuentaCorriente(saldo, dni,nombre);
+		
+		
+		
+		
 		
 		//cierre de scanner
 		sc.close();

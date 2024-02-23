@@ -11,14 +11,12 @@ public class CuentaCorriente {
 	
 	//
 	public CuentaCorriente(double saldo, int dni) {
-		super();
 		this.saldo = saldo;
 		this.dni = dni;
 	}
 	
 	//
 	public CuentaCorriente(double saldo, int dni, String nombre) {
-		super();
 		this.saldo = saldo;
 		this.dni = dni;
 		this.nombre = nombre;

@@ -14,7 +14,7 @@ public class Main {
 		
 		
 		
-		apk=new Libro();
+		apk=new Libro(titulo, titulo, valor, valor);
 		
 	}
 

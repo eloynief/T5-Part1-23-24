@@ -92,6 +92,7 @@ public class Libro {
 		this.prestados = prestados;
 	}
 	
+	//elena esto es lo que tiene que hacer la funcion ?????
 	/**
 	 * funcion que aumenta la variable prestados y decrementa los ejemplares
 	 * @param prestamo libros a recibir

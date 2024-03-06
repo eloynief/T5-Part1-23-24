@@ -1,5 +1,10 @@
 package ej2;
 
+/**
+ * Crea una clase llamada Libro que guarde la información de cada uno de los libros de una biblioteca. 
+ * La clase debe guardar el título del libro, autor, número de ejemplares del libro y número de ejemplares prestados. 
+ * La clase contendrá los siguientes métodos:
+ */
 public class Libro {
 	
 	/*
@@ -114,7 +119,7 @@ public class Libro {
 				prestados+=prestamo;
 				
 				//se restan los ejemplares
-				ejemplares-=prestamo;
+				//ejemplares-=prestamo;
 				
 			}//fin ejemplares>=prestamo
 		}//fin prestamo>0
@@ -135,7 +140,8 @@ public class Libro {
 		boolean esCorrecto=false;
 		
 		//si vas a devolver libros
-		if(libros>0) {
+//		if(libros>0) {
+		
 			//si hay libros prestados
 			if(prestados>=libros) {
 				
@@ -144,10 +150,10 @@ public class Libro {
 				//
 				prestados-=libros;
 				
-				ejemplares+=libros;
+				//ejemplares+=libros;
 				
 			}
-		}
+//		}
 		
 		//se devuelve el boolean
 		return esCorrecto;
@@ -157,7 +163,7 @@ public class Libro {
 	
 	
 
-
+	//to string sin tocar
 	@Override
 	public String toString() {
 		return "Libro [titulo=" + titulo + ", autor=" + autor + ", ejemplares=" + ejemplares + ", prestados="

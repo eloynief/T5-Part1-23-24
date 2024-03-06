@@ -1,18 +1,16 @@
-package ej2;
+package ej3;
 
 import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
-
+		
+		
 		//objeto scanner
 		Scanner sc=new Scanner(System.in);
 		
 		//
-		Libro apk;
-		
-		
 		String titulo;
 		
 		int valor;
@@ -24,14 +22,31 @@ public class Main {
 			System.out.print("Elige una opcion: ");
 			//
 			opcion=sc.nextInt();
-
+			
+			//
 			switch(opcion) {
+			
+			case 1:{
+				
+			}
+			
+			case 2:{
+				
+			}
+			
+			case 3:{
+				
+			}
+			
+			case 0:{
+				
+			}
+			
 			
 			}
 			
 		}while (opcion!=0);
 		
-//		apk=new Libro(titulo, titulo, valor, valor);
 		
 	}
 

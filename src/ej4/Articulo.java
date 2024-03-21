@@ -25,8 +25,7 @@ public class Articulo {
 	 * @param cuantosQuedan
 	 */
 	public Articulo(String nombre, double precio, int cuantosQuedan) {
-		//ELENA TE PIDE QUE NO DEJES EL SUPER PORQUE HACE REFERENCIA A LA SUPERCLASE QUE ES ALGO QUE SE VA A DAR
-		//super();
+		
 		this.nombre = nombre;
 		this.precio = precio;
 		this.cuantosQuedan = cuantosQuedan;
@@ -127,9 +126,9 @@ public class Articulo {
 		
 		//
 		str+="--------------------\n";
-		str+="Datos del Articuno: \n";
+		str+="Datos del Articulo: \n";
 		str+="Nombre: "+nombre+"\n";
-		str+="Presio: "+precio+"\n";
+		str+="Precio: "+precio+"\n";
 		str+="Cuantos Quedan??: "+cuantosQuedan+"\n";
 		//he puesto la n al final de este lado para que no tenga que poner tantos syso
 		str+="--------------------\n";
